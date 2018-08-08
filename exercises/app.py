@@ -3,7 +3,7 @@ from flask import Flask, render_template, url_for
 from model import *
 app = Flask(__name__)
 
-#add_student("hh",3,True)
+add_student("jeff",3,True)
 @app.route('/')
 def home():
     return render_template("home.html")
